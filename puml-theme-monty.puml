@@ -66,6 +66,7 @@ skinparam useBetaStyle false
 !$DANGER_TEXT = $WHITE
 !$DARK_DARK = "#2f343a"
 !$DARK_LIGHT = "#484e53"
+!$NOTE_TEXT = "#007e9a"
 !$DARK_TEXT = "#00526c"
 !$LIGHT_DARK = "#dfe0e1"
 !$LIGHT_LIGHT = "#f9fafb"
@@ -219,7 +220,7 @@ skinparam stereotype {
     NBorderColor $INFO_DARK
 }
 skinparam title {
-	FontColor	                 $PRIMARY_DARK
+	FontColor	                 $DARK_TEXT
 	BorderColor	                 $SECONDARY_DARK
 	FontSize	    	         20
 	BorderRoundCorner            8
@@ -374,7 +375,7 @@ skinparam note {
 	BorderThickness 1
 	BackgroundColor $BEIGE
 	BorderColor $INFO_DARK
-	FontColor $DARK
+	FontColor $NOTE_TEXT
 }
 !endsub
 
