@@ -94,6 +94,7 @@ skinparam useBetaStyle false
   root {
     BackgroundColor $BGCOLOR
     FontColor $PRIMARY_TEXT
+    FontStyle bold
     HyperLinkColor $ORANGE
     LineColor $PRIMARY_DARK
     LineThickness 1
