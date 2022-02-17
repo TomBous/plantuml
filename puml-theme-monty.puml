@@ -198,8 +198,9 @@ skinparam useBetaStyle false
 ''
 '' Global Default Values
 ''
-skinparam defaultFontName       "Verdana"
-skinparam defaultFontSize       12
+skinparam defaultFontName       "Proxima Nova"
+skinparam defaultFontSize       14
+skinparam defaultFontStyle      bold
 skinparam dpi                   100
 skinparam shadowing             false
 skinparam roundcorner           8
