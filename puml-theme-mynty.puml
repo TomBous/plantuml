@@ -245,7 +245,7 @@ skinparam swimlane {
 
 skinparam activity {
 	$primary_scheme()
-	BarColor $SUCCESS
+	BarColor $INFO
 	StartColor $INFO
 	EndColor $INFO
 	''
@@ -372,7 +372,7 @@ skinparam note {
 	BorderThickness 1
 	BackgroundColor $BEIGE
 	BorderColor $INFO_DARK
-	FontColor $WHITE
+	FontColor $DARK
 }
 !endsub
 
