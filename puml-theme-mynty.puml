@@ -38,6 +38,7 @@ skinparam useBetaStyle false
 !$DANGER = "#ff7851"
 !$LIGHT = "#f8f9fa"
 !$DARK = "#343a40"
+!$BEIGE = "#ffffb3"
 
 '' *_DARK = tint (lighter) of the main color of 80%
 ''          where TINT is calculated by clr + (255-clr) * tint_factor
@@ -369,7 +370,7 @@ skinparam agent {
 
 skinparam note {
 	BorderThickness 1
-	BackgroundColor $INFO
+	BackgroundColor $BEIGE
 	BorderColor $INFO_DARK
 	FontColor $WHITE
 }
