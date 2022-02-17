@@ -8,7 +8,7 @@
 !$THEME = "mynty"
 
 !if %not(%variable_exists("$BGCOLOR"))
-!$BGCOLOR = "transparent"
+!$BGCOLOR = "#2b2a33"
 !endif
 
 skinparam backgroundColor $BGCOLOR
@@ -66,6 +66,7 @@ skinparam useBetaStyle false
 !$DANGER_TEXT = $WHITE
 !$DARK_DARK = "#2f343a"
 !$DARK_LIGHT = "#484e53"
+!$NOTE_TEXT = "#56423b"
 !$LIGHT_DARK = "#dfe0e1"
 !$LIGHT_LIGHT = "#f9fafb"
 
