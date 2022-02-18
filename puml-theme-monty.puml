@@ -30,6 +30,7 @@ skinparam useBetaStyle false
 !$WHITE = "#fff"
 !$GRAY = "#888"
 !$GRAYDARK = "#343a40"
+!$GRAYLIGHT = "#e1e6eb"
 !$PRIMARY = "#78c2ad"
 !$SECONDARY = "#f3969a"
 !$SUCCESS = "#56cc9d"
@@ -328,8 +329,8 @@ skinparam sequence {
 !startsub partition
 
 skinparam partition {
-	BorderColor $PRIMARY
-	FontColor $PRIMARY
+	BorderColor $GRAYLIGHT
+	FontColor $LIGHT
 	BackgroundColor $BGCOLOR
 }
 !endsub
