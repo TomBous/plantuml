@@ -331,7 +331,7 @@ skinparam sequence {
 skinparam partition {
 	BorderColor $GRAYLIGHT
 	FontColor $LIGHT
-	BackgroundColor "transparent"
+	BackgroundColor transparent
 }
 !endsub
 
